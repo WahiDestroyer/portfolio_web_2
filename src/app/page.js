@@ -4,6 +4,7 @@ import Banner from "./Home/Banner";
 import Footer from "./Home/Footer";
 import Description from "./Home/Description";
 import About from "./Home/About";
+import Contact from "./Home/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Banner />
     <Description />
     <About />
+    <Contact />
     <Footer />
     </>
   );

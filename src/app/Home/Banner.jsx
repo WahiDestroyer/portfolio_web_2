@@ -9,7 +9,7 @@ import man from "../../../public/images/banner/banner.png";
 
 const Banner = () => {
   return (
-    <section className="bg-[url(/images/banner/cover.png)] bg-cover bg-center">
+    <section className="bg-[url(/images/banner/cover.png)] bg-cover bg-center pb-8 sm:pb-12 lg:pb-18">
       <div className="container flex flex-col lg:flex-row justify-between items-center pt-8 sm:pt-12 lg:pt-18 px-4 sm:px-6 lg:px-8">
         <div className="order-2 lg:order-1 w-full lg:w-auto">
           <div className="pb-8 sm:pb-12 lg:pb-56">

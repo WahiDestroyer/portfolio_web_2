@@ -1,3 +1,4 @@
+// FormPart.jsx - Fixed responsive version
 'use client'
 import React, { useState } from "react";
 
@@ -24,8 +25,8 @@ const FormPart = () => {
     }
   };
   return (
-    <div>
-      <form onSubmit={handelSubmit} className="grid grid-cols-1 gap-12 pb-17">
+    <div className="w-full flex justify-center">
+      <form onSubmit={handelSubmit} className="grid grid-cols-1 gap-8 sm:gap-10 lg:gap-12 pb-12 sm:pb-15 lg:pb-17">
         <input
           onChange={(e) => {
             setFullName(e.target.value);
@@ -35,7 +36,7 @@ const FormPart = () => {
           type="text"
           placeholder="ENTER YOUR NAME*"
           className="outline-0 border- placeholder:font-mont placeholder:font-bold placeholder:text-sm placeholder:text-[#8B8B8B] font-mont font-bold text-sm text-[#8B8B8B]
-        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black"
+        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black w-full max-w-[500px]"
         />
         {fullNameErr && (
           <p className="text-red-600 font-semibold font-sans">{fullNameErr}</p>
@@ -49,7 +50,7 @@ const FormPart = () => {
           type="email"
           placeholder="ENTER YOUR EMAIL*"
           className="outline-0 border- placeholder:font-mont placeholder:font-bold placeholder:text-sm placeholder:text-[#8B8B8B] font-mont font-bold text-sm text-[#8B8B8B]
-        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black"
+        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black w-full max-w-[500px]"
         />
         {emailErr && (
           <p className="text-red-600 font-semibold font-sans">{emailErr}</p>
@@ -63,7 +64,7 @@ const FormPart = () => {
           type="number"
           placeholder="PHONE NUMBER"
           className="outline-0 border- placeholder:font-mont placeholder:font-bold placeholder:text-sm placeholder:text-[#8B8B8B] font-mont font-bold text-sm text-[#8B8B8B]
-        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black"
+        border-b-4 border-l-4 py-2 pl-4 pr-50 border-black w-full max-w-[500px]"
         />
         {numberErr && (
           <p className="text-red-600 font-semibold font-sans">{numberErr}</p>
@@ -72,11 +73,11 @@ const FormPart = () => {
           type="text"
           placeholder="YOUR MESSAGE*"
           className="outline-0 border- placeholder:font-mont placeholder:font-bold placeholder:text-sm placeholder:text-[#8B8B8B] font-mont font-bold text-sm text-[#8B8B8B]
-        border-b-4 border-l-4 pt-2 pl-4 pr-50 pb-20 border-black"
+        border-b-4 border-l-4 pt-2 pl-4 pr-50 pb-20 border-black w-full max-w-[500px]"
         />
         <button
           type="submit"
-          className="font-bold text-base font-sans text-black border-x-3 py-2 hover:text-white hover:bg-black transition-all duration-300 uppercase"
+          className="font-bold text-base font-sans text-black border-x-3 py-2 hover:text-white hover:bg-black transition-all duration-300 uppercase w-full max-w-[500px]"
         >
           submit
         </button>

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
-import Description from "./components/Description";
-import About from "./components/About";
+import Navbar from "./Home/Navbar";
+import Banner from "./Home/Banner";
+import Footer from "./Home/Footer";
+import Description from "./Home/Description";
+import About from "./Home/About";
 
 export default function Home() {
   return (

@@ -72,7 +72,7 @@ const About = () => {
     <Image
       src={main}
       alt="main"
-      className="absolute bottom-12 -left-4 sm:-left-10 z-10 w-8 h-8 sm:w-auto sm:h-auto"
+      className="absolute bottom-16 -left-4 z-10 w-8 h-8 sm:w-auto sm:h-auto"
     />
     <h4 className="font-mont text-xl sm:text-2xl font-bold text-black mt-8 sm:mt-0">
       MAINTENANCE

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Lang = ({sobi, title, somoy}) => {
   return (
     <div data-aos="zoom-in" data-aos-duration={somoy} className='flex flex-col justify-center items-center'>
-      <Image src={sobi} alt='Language' className='w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20'/>
+      <Image src={sobi} alt='Language' className=''/>
       <p className='font-mont text-sm sm:text-lg md:text-xl lg:text-2xl text-black pt-2 sm:pt-4 uppercase tracking-widest text-center'>{title}</p>
     </div>
   )

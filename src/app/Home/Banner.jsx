@@ -23,11 +23,11 @@ const Banner = () => {
               />
             </Link>
           </div>
-          <div className="text-center lg:text-left">
-            <h2 className="font-ral font-bold text-2xl sm:text-3xl lg:text-4xl text-black pb-6 sm:pb-10 lg:pb-14">
+          <div className="sm:pl-70 lg:px-0 text-center lg:text-left">
+            <h2 className="lg:text-black sm:text-ds font-ral font-bold text-2xl sm:text-3xl lg:text-4xl text-black pb-6 sm:pb-10 lg:pb-14">
               Hi, I am
             </h2>
-            <h1 className="font-ral text-4xl sm:text-5xl lg:text-7xl text-black font-bold leading-tight">
+            <h1 className="lg:text-black sm:text-ds font-ral text-4xl sm:text-5xl lg:text-7xl text-black font-bold leading-tight">
               Tomasz Gajda
             </h1>
             <p className="font-extrabold text-sai font-ral text-lg sm:text-xl lg:text-2xl pb-8 sm:pb-16 lg:pb-32 mt-4">

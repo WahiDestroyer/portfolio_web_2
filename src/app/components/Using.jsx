@@ -12,7 +12,7 @@ import figma from "../../../public/images/about/using/figma.png"
 
 const Using = () => {
   return (
-    <div className='flex flex-col items-center w-full px-4 sm:px-6 lg:px-8'>
+    <div id='#skills' className='flex flex-col items-center w-full px-4 sm:px-6 lg:px-8'>
       <h2 data-aos="fade-down" className="font-mont font-bold text-xl sm:text-2xl md:text-3xl py-3 sm:py-4 px-6 sm:px-10 text-black tracking-wider outline-4 outline-offset-2 hover:bg-black hover:text-white transition-all duration-400 hover:outline-black text-center">
           SKILLS
         </h2>

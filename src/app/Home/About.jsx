@@ -13,7 +13,7 @@ import Other from "../components/Other";
 const About = () => {
   return (
     <section className="bg-[#FAFAFA]">
-    <div className="container flex flex-col items-center justify-center py-20 md:pb-40 px-4 sm:px-6 lg:px-8">
+    <div id="about" className="container flex flex-col items-center justify-center py-20 md:pb-40 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col items-center justify-center w-full">
         <h2 data-aos="fade-down" data-aos-duration="2500" className="font-mont font-bold text-xl sm:text-2xl md:text-3xl py-3 sm:py-4 px-4 sm:px-6 text-black tracking-widest outline-4 outline-offset-2 hover:bg-black hover:text-white transition-all duration-400 hover:outline-black mb-12 sm:mb-18 text-center">
           ABOUT ME

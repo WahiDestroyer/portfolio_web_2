@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -34,16 +35,16 @@ const Navbar = () => {
           </button>
           <ul className="hidden md:flex space-x-4">
             <li className="font-mont font-bold text-lg text-white hover:text-black hover:bg-white px-3 py-2.5 transition-all duration-300 rounded-4xl cursor-pointer">
-              About me
+              <Link href="#about">About me</Link>
             </li>
             <li className="font-mont font-bold text-lg text-white hover:text-black hover:bg-white px-3 py-2.5 transition-all duration-300 rounded-4xl cursor-pointer">
-              Skills
+             <Link href="#skills">Skills</Link>
             </li>
             <li className="font-mont font-bold text-lg text-white hover:text-black hover:bg-white px-3 py-2.5 transition-all duration-300 rounded-4xl cursor-pointer">
-              Portfolio
+             <Link href="#"> Portfolio </Link>
             </li>
             <li className="font-mont font-bold text-lg text-white hover:text-black hover:bg-white px-3 py-2.5 transition-all duration-300 rounded-4xl cursor-pointer">
-              CONTACT ME
+              <Link href="#contact">CONTACT ME</Link> 
             </li>
           </ul>
         </div>
